@@ -151,6 +151,7 @@ static const osTypePattern gs_OSTypePattern[] =
     { QRegExp("Xa.*32",                            Qt::CaseInsensitive), "Xandros" },
     { QRegExp("((Or)|(oel)|(ol)).*64",             Qt::CaseInsensitive), "Oracle_64" },
     { QRegExp("((Or)|(oel)|(ol)).*32",             Qt::CaseInsensitive), "Oracle" },
+    { QRegExp("End.*64",                           Qt::CaseInsensitive), "EndlessOS_64" },
     { QRegExp("Knoppix",                           Qt::CaseInsensitive), "Linux26" },
     { QRegExp("Dsl",                               Qt::CaseInsensitive), "Linux24" },
     { QRegExp("((Lin)|(lnx)).*2.?2",               Qt::CaseInsensitive), "Linux22" },

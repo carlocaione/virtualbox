@@ -5,6 +5,7 @@
         <file alias="os_debian_64_x3.png">images/x3/os_debian_64_x3.png</file>
         <file alias="os_debian_x3.png">images/x3/os_debian_x3.png</file>
         <file alias="os_dos_x3.png">images/x3/os_dos_x3.png</file>
+        <file alias="os_endless_64_x3.png">images/x3/os_endless_64_x3.png</file>
         <file alias="os_fedora_64_x3.png">images/x3/os_fedora_64_x3.png</file>
         <file alias="os_fedora_x3.png">images/x3/os_fedora_x3.png</file>
         <file alias="os_freebsd_64_x3.png">images/x3/os_freebsd_64_x3.png</file>

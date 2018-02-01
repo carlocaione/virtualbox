@@ -216,6 +216,7 @@ static void vmmdevLogGuestOsInfo(VBoxGuestInfo *pGuestInfo)
         case VBOXOSTYPE_Ubuntu:                           pszOs = "Ubuntu";         break;
         case VBOXOSTYPE_Xandros:                          pszOs = "Xandros";        break;
         case VBOXOSTYPE_Oracle:                           pszOs = "Oracle Linux";   break;
+        case VBOXOSTYPE_EndlessOS_x64 & ~VBOXOSTYPE_x64:  pszOs = "Endless OS";     break;
         case VBOXOSTYPE_FreeBSD:                          pszOs = "FreeBSD";        break;
         case VBOXOSTYPE_OpenBSD:                          pszOs = "OpenBSD";        break;
         case VBOXOSTYPE_NetBSD:                           pszOs = "NetBSD";         break;

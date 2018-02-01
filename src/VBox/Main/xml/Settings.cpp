@@ -5094,6 +5094,7 @@ const struct {
     { "redhat", "RedHat" },
     { "ubuntu", "Ubuntu" },
     { "xandros", "Xandros" },
+    { "endlessos", "EndlessOS" },
     { "freebsd", "FreeBSD" },
     { "openbsd", "OpenBSD" },
     { "netbsd", "NetBSD" },

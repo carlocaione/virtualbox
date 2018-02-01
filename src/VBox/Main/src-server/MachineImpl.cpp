@@ -1335,6 +1335,7 @@ HRESULT Machine::getEffectiveParavirtProvider(ParavirtProvider_T *aParavirtProvi
                              || mUserData->s.strOsType == "ArchLinux_64"
                              || mUserData->s.strOsType == "Debian"
                              || mUserData->s.strOsType == "Debian_64"
+                             || mUserData->s.strOsType == "EndlessOS_64"
                              || mUserData->s.strOsType == "Fedora"
                              || mUserData->s.strOsType == "Fedora_64"
                              || mUserData->s.strOsType == "Gentoo"

@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
+        <file alias="os_endless_64_x2.png">images/x2/os_endless_64_x2.png</file>
         <file alias="os_oraclesolaris_64_x2.png">images/x2/os_oraclesolaris_64_x2.png</file>
         <file alias="os_oraclesolaris_x2.png">images/x2/os_oraclesolaris_x2.png</file>
         <file alias="os_oracle_x2.png">images/x2/os_oracle_x2.png</file>

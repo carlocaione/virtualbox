@@ -222,6 +222,12 @@ const Global::OSType Global::sOSTypes[] =
       1024,  16,  8 * _1G64, NetworkAdapterType_I82540EM, 0, StorageControllerType_PIIX4, StorageBus_IDE,
         StorageControllerType_IntelAhci, StorageBus_SATA, ChipsetType_PIIX3, AudioControllerType_AC97, AudioCodecType_AD1980},
 
+    { "Linux",   "Linux",             "EndlessOS_64",          "Endless OS (64-bit)",
+      VBOXOSTYPE_EndlessOS_x64,   VBOXOSHINT_64BIT | VBOXOSHINT_HWVIRTEX | VBOXOSHINT_IOAPIC | VBOXOSHINT_RTCUTC
+                                | VBOXOSHINT_USBTABLET | VBOXOSHINT_X2APIC | VBOXOSHINT_EFI,
+      2048,  16,  32 * _1G64, NetworkAdapterType_I82540EM, 0, StorageControllerType_PIIX4, StorageBus_IDE,
+        StorageControllerType_IntelAhci, StorageBus_SATA, ChipsetType_PIIX3, AudioControllerType_AC97, AudioCodecType_AD1980},
+
     { "Linux",   "Linux",             "Fedora",             "Fedora (32-bit)",
       VBOXOSTYPE_FedoraCore,      VBOXOSHINT_RTCUTC | VBOXOSHINT_USBTABLET | VBOXOSHINT_X2APIC,
       1024,  16,  8 * _1G64, NetworkAdapterType_I82540EM, 0, StorageControllerType_PIIX4, StorageBus_IDE,

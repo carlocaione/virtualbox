@@ -333,6 +333,7 @@ UIIconPoolGeneral::UIIconPoolGeneral()
     m_guestOSTypeIconNames.insert("Xandros_64",      ":/os_xandros_64.png");
     m_guestOSTypeIconNames.insert("Oracle",          ":/os_oracle.png");
     m_guestOSTypeIconNames.insert("Oracle_64",       ":/os_oracle_64.png");
+    m_guestOSTypeIconNames.insert("EndlessOS_64",    ":/os_endless_64.png");
     m_guestOSTypeIconNames.insert("Linux",           ":/os_linux.png");
     m_guestOSTypeIconNames.insert("Linux_64",        ":/os_linux_64.png");
     m_guestOSTypeIconNames.insert("FreeBSD",         ":/os_freebsd.png");
